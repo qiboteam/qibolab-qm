@@ -11,6 +11,7 @@ dist/
 
 # Unit test / coverage reports
 htmlcov/
+coverage.xml
 .coverage
 
 # Sphinx documentation

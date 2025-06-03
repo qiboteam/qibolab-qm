@@ -76,7 +76,7 @@ test-docs = "make -C docs doctest"
 testpaths = ['tests/']
 markers = ["qpu: mark tests that require qpu"]
 addopts = [
-  '--cov=qibolab-qm',
+  '--cov=qibolab_qm',
   '--cov-report=xml',
   '--cov-report=html',
   '-m not qpu',
