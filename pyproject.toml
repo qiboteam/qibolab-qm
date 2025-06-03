@@ -68,9 +68,9 @@ lint-warnings = """
            RET,SLF,SLOT,SIM,TC,INT,ARG,PTH,ERA,NPY,PERF,RUF
 """
 types = "true"
-docs = "make -C doc html"
-docs-clean = "make -C doc clean"
-test-docs = "make -C doc doctest"
+docs = "make -C docs html"
+docs-clean = "make -C docs clean"
+test-docs = "make -C docs doctest"
 
 [tool.pytest.ini_options]
 testpaths = ['tests/']
