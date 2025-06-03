@@ -15,7 +15,7 @@ htmlcov/
 
 # Sphinx documentation
 docs/_build/
-doc/source/api-reference/qibolab-qm*
+docs/source/api-reference/*
 
 # Jupyter Notebook
 .ipynb_checkpoints
