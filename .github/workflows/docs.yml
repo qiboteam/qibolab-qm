@@ -25,3 +25,4 @@ jobs:
       trigger-label: "${{needs.version.outputs.version}}"
       project: qibolab-qm
       poetry-extras: --with docs --all-extras
+      output-path: docs/build/html
