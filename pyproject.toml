@@ -22,7 +22,7 @@ packages = [{ include = "qibolab_qm", from = "src" }]
 [tool.poetry.dependencies]
 python = ">=3.9,<3.13"
 qibolab = "^0.2.6"
-qm-qua = "==1.2.1"
+qm-qua = "==1.2.2"
 
 [tool.poetry.group.dev]
 optional = true
